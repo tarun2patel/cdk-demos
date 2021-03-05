@@ -6,6 +6,6 @@ from custom_vpc.custom_vpc_stack import CustomVpcStack
 
 
 app = core.App()
-CustomVpcStack(app, "custom-vpc", env={'region': 'us-east-1'})
+CustomVpcStack(app, "custom-vpc", env={'region': 'ap-south-1'})
 
 app.synth()
